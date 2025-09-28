@@ -27,8 +27,8 @@
 - #include <locale.h>
 - int main()
 - {
-- 	const float Shirina = 0.8;  // ширина ткани
-- 	float x = 4.0;  // длинна ткани
+- const float Shirina = 0.8;  // ширина ткани
+- float x = 4.0;  // длинна ткани
 - 	int B = 50;  // цена за 1 кв метр ткани
 - 	float price = x * Shirina * B;
 - 	setlocale(LC_CTYPE, "RUS");
